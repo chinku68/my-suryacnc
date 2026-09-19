@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { FaWhatsapp } from "react-icons/fa";
 import { FiArrowRight } from "react-icons/fi";
+import { SelectedWorksSection, ServicesSection, TrustHighlights } from "./home-sections";
 import SiteHeader from "./site-header";
 
 const focusRing =
@@ -75,6 +76,9 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <TrustHighlights />
+        <ServicesSection />
+        <SelectedWorksSection />
       </main>
     </>
   );
