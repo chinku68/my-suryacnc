@@ -49,7 +49,7 @@ const serviceItems: CardItem[] = [
   },
   {
     title: "Pooja Doors",
-    image: "/img/img1/Warm Slatted Shrine Entryway.png",
+    image: "/img/img1/Ornate Illuminated Temple Doors.png",
     alt: "Warm wood slatted entrance framing an illuminated pooja space",
   },
   {
