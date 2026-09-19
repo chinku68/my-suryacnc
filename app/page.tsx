@@ -1,7 +1,10 @@
 import Image from "next/image";
 import { FaWhatsapp } from "react-icons/fa";
 import { FiArrowRight } from "react-icons/fi";
+import AboutCraftsmanshipSection from "./about-craftsmanship-section";
+import { FAQSection, FinalCTASection, Footer, WhatsAppButton } from "./final-sections";
 import { SelectedWorksSection, ServicesSection, TrustHighlights } from "./home-sections";
+import { CraftsmanshipSection, ProcessSection } from "./process-sections";
 import SiteHeader from "./site-header";
 
 const focusRing =
@@ -79,7 +82,14 @@ export default function Home() {
         <TrustHighlights />
         <ServicesSection />
         <SelectedWorksSection />
+        <CraftsmanshipSection />
+        <ProcessSection />
+        <AboutCraftsmanshipSection />
+        <FAQSection />
+        <FinalCTASection />
       </main>
+      <Footer />
+      <WhatsAppButton />
     </>
   );
 }

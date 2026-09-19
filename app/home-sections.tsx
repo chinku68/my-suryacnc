@@ -54,7 +54,7 @@ const serviceItems: CardItem[] = [
   },
   {
     title: "Decorative Wall Panels",
-    image: "/img/img1/CNC-Crafted Wooden Mandala Panel.png",
+    image: "/img/img1/Illuminated Tree Carved Wood Panel.png",
     alt: "CNC machine carving an ornate wooden mandala wall panel",
   },
   {
@@ -69,7 +69,7 @@ const serviceItems: CardItem[] = [
   },
   {
     title: "Custom Architectural Work",
-    image: "/img/img1/Master Craftsman Carving Ornate Woodwork.png",
+    image: "/img/img1/Warmly Lit Mandala Wood Partition.png",
     alt: "Craftsman hand-finishing an ornate CNC-carved wooden panel",
   },
 ];
