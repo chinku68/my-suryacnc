@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Custom CNC doors, panels, murals and architectural details, designed and finished in Hyderabad.",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/img/mainlogo.png",
   },
 };
 
