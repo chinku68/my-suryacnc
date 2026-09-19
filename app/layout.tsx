@@ -16,8 +16,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang="en" className="scroll-smooth scroll-pt-32 motion-reduce:scroll-auto">
+      <body className="overflow-x-hidden bg-background font-sans text-primary antialiased [text-rendering:optimizeLegibility]">
+        {children}
+      </body>
     </html>
   );
 }
